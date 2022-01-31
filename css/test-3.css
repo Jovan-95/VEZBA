@@ -1,0 +1,91 @@
+.side {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: inset -1px 0px 0px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 99px;
+  background: #141417;
+  padding: 24px; }
+  .side .side-items-top .sidebar-items {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; }
+  .side .bottom-side .sidebar-items-bottom {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; }
+
+.car {
+  background: #1F2025;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .car .img img {
+    width: 170px;
+    height: 150px;
+    object-fit: cover; }
+  .car .text {
+    padding: 5px; }
+    .car .text p {
+      font-size: 12px; }
+    .car .text h5 {
+      font-size: 14px; }
+    .car .text .read-more {
+      color: #FFFFFF;
+      background: #1F2025;
+      border: none; }
+
+.container-wrapper .main {
+  margin-left: 99px;
+  background: #1F2025;
+  color: #FFFFFF; }
+  .container-wrapper .main .main-top {
+    height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FAFCFE;
+    margin-bottom: 50px; }
+  .container-wrapper .main .main-middle-left .tech {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF; }
+  .container-wrapper .main .main-middle-left .heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FAFCFE; }
+  .container-wrapper .main .main-middle-left .date {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF; }
+  .container-wrapper .main .main-middle-left p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF; }
+  .container-wrapper .main .main-middle-right .esg {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF; }
+  .container-wrapper .main .main-middle-right .yield {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #F9FAFB;
+    margin-bottom: 20px;
+    margin-top: 20px; }

@@ -1,0 +1,51 @@
+@import "components/side";
+@import "components/car";
+@import "components/navigation";
+.container-wrapper{
+.main{
+  background: #1F2025;
+  margin-left: 99px;
+  color: #fff;
+  .main-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .main-top-left{
+    img{
+      object-fit: cover;
+    }
+    }
+    .main-top-right{
+      .user-img{
+        display: flex;
+        justify-content: end;
+      }
+      .graphic-img{
+          margin-top: 50px;
+          margin-right: 50px;
+      }
+    }
+  }
+  .main-bottom{
+    padding: 5px;
+    .main-bottom-left{
+      .text{
+        .read-more{
+          color: #FFFFFF;
+          background: #1F2025;
+          border: none;
+        }
+      }
+    }
+    .main-bottom-right{
+      .text{
+        .read-more{
+          color: #FFFFFF;
+          background: #1F2025;
+          border: none;
+        }
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,88 @@
+.forms{
+  padding: 20px;
+  .portrait{
+    img{
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  }
+  .name-email{
+    padding: 10px;
+    #fname{
+      //max-width: 450px;
+      width: 100%;
+      height: 45px;
+      background: #22232B;
+      border: 1px solid #34384C;
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: #FFFFFF;
+    }
+    #email{
+      //max-width: 450px;
+      width: 100%;
+      height: 45px;
+      background: #22232B;
+      border: 1px solid #34384C;
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: #FFFFFF;
+
+    }
+    .btn-wrapper {
+      display: flex;
+      justify-content: end;
+      .btn {
+        margin-top: 10px;
+        color: #fff;
+        background: blue;
+      }
+    }
+  }
+  .pass{
+    padding: 10px;
+    #psw{
+     // max-width: 450px;
+      width: 100%;
+      height: 45px;
+      background: #22232B;
+      border: 1px solid #34384C;
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: #FFFFFF;
+
+    }
+    #new-psw{
+      //max-width: 450px;
+      width: 100%;
+      height: 45px;
+      background: #22232B;
+      border: 1px solid #34384C;
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: #FFFFFF;
+
+    }
+    #con-psw{
+    //  max-width: 450px;
+      width: 100%;
+      height: 45px;
+      background: #22232B;
+      border: 1px solid #34384C;
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: #FFFFFF;
+
+    }
+    .btn-wrapper {
+      display: flex;
+      justify-content: end;
+      .btn {
+        margin-top: 10px;
+        color: #fff;
+        background: blue;
+      }
+    }
+  }
+}

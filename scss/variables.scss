@@ -1,6 +1,82 @@
-//Variables
-
-$deepblue: #032f3e;
-$offWhite: #f8f9fb;
-$sectionHeading: 24px;
-$bannerHeading: 46px;
+// Primary
+$color-primary: #009899;
+$color-primary-200: #03DAC5;
+$color-primary-100: #BFF7F1;
+// Blue
+$color-blue: #004E9B;
+// Green
+$color-green: #009B4E;
+$color-green-800: #10B981;
+// Red
+$color-red: #E3507A;
+// Black
+$color-black: #000000;
+$color-black-100: #212121;
+// White
+$color-white: #FFFFFF;
+// Gray
+$gray-100: #F3F4F6;
+$gray-200: #E5E7EB;
+$gray-300: #D1D5DB;
+$gray-400: #9CA3AF;
+$gray-500: #6B7280;
+$gray-600: #4B5563;
+$gray-700: #374151;
+$gray-800: #1F2937;
+$gray-900: #111827;
+// Opacity
+$color-opacity-60: rgba(0, 0, 0, 0.6);
+$color-opacity-10: rgba(0, 152, 153, 0.1);
+// Success, warning, error
+$success-color: #00BF7A;
+$warning-color: #F0C862;
+$error-color: #E43D5B;
+// ========== FONT SIZE ==========
+$size-9: 0.562rem;
+$size-10: 0.625rem;
+$size-12: 0.75rem;
+$size-14: 0.875rem;
+$size-15: 0.9375rem;
+$size-16: 1rem;
+$size-17: 1.0625rem;
+$size-18: 1.125rem;
+$size-20: 1.25rem;
+$size-22: 1.375rem;
+$size-24: 1.5rem;
+$size-26: 1.625rem;
+$size-30: 1.875rem;
+$size-32: 2rem;
+$size-34: 2.125rem;
+$size-36: 2.25rem;
+$size-40: 2.5rem;
+$size-46: 2.875rem;
+$size-48: 3rem;
+$size-50: 3.125rem;
+$size-55: 3.4375rem;
+$size-60: 3.75rem;
+$size-64: 4rem;
+$size-70: 4.375rem;
+$size-90: 5.625rem;
+$size-96: 6rem;
+$size-100: 6.25rem;
+// ========== SPACING ==========
+$spacing-0: 0rem;
+$spacing-5: 0.312rem;
+$spacing-10: 0.625rem;
+$spacing-15: 0.937rem;
+$spacing-16: 1rem;
+$spacing-18: 1.125rem;
+$spacing-20: 1.25rem;
+$spacing-25: 1.562rem;
+$spacing-30: 1.875rem;
+$spacing-35: 2.187rem;
+$spacing-40: 2.5rem;
+$spacing-45: 2.812rem;
+$spacing-50: 3.125rem;
+$spacing-60: 3.75rem;
+$spacing-80: 5rem;
+$spacing-100: 6.25rem;
+// ========== RADIUS ==========
+$radius-2: 0.125rem;
+$radius-4: 0.25rem;
+$radius-8: 0.5rem;

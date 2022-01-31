@@ -1,0 +1,33 @@
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid lightgray;
+  .contact-left{
+    padding: 10px;
+    margin-right: 60px;
+    div{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 30px;
+      color: #9CA3AF;
+    }
+    p{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+  }
+  .contact-right{
+    padding: 10px;
+    .helper{
+      margin-left: 20px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid lightgray; }
+  .contact .contact-left {
+    padding: 10px;
+    margin-right: 60px; }
+    .contact .contact-left div {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 30px;
+      color: #9CA3AF; }
+    .contact .contact-left p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF; }
+  .contact .contact-right {
+    padding: 10px; }
+    .contact .contact-right .helper {
+      margin-left: 20px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px; }

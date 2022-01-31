@@ -1,0 +1,19 @@
+.navigation{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #282933;
+  max-width: 750px;
+  margin-left: 50px;
+  margin-top: 10px;
+  .navigation-items{
+    padding: 15px;
+    justify-self: center;
+    width: 170px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+  }
+}

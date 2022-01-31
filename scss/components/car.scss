@@ -1,0 +1,25 @@
+.car{
+  background: #1F2025;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .img img{
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .text{
+    padding: 5px;
+    p{
+      font-size: 12px;
+    }
+    h5{
+      font-size: 14px;
+    }
+    .read-more{
+      color: #FFFFFF;
+      background: #1F2025;
+      border: none;
+    }
+  }
+}

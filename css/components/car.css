@@ -1,0 +1,19 @@
+.car {
+  background: #1F2025;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .car .img img {
+    width: 170px;
+    height: 150px;
+    object-fit: cover; }
+  .car .text {
+    padding: 5px; }
+    .car .text p {
+      font-size: 12px; }
+    .car .text h5 {
+      font-size: 14px; }
+    .car .text .read-more {
+      color: #FFFFFF;
+      background: #1F2025;
+      border: none; }

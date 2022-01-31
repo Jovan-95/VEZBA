@@ -1,0 +1,89 @@
+.side {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: inset -1px 0px 0px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 99px;
+  background: #141417;
+  padding: 24px; }
+  .side .side-items-top .sidebar-items {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; }
+  .side .bottom-side .sidebar-items-bottom {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; }
+
+.car {
+  background: #1F2025;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .car .img img {
+    width: 170px;
+    height: 150px;
+    object-fit: cover; }
+  .car .text {
+    padding: 5px; }
+    .car .text p {
+      font-size: 12px; }
+    .car .text h5 {
+      font-size: 14px; }
+    .car .text .read-more {
+      color: #FFFFFF;
+      background: #1F2025;
+      border: none; }
+
+.navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #282933;
+  max-width: 750px;
+  margin-left: 50px;
+  margin-top: 10px; }
+  .navigation .navigation-items {
+    padding: 15px;
+    justify-self: center;
+    width: 170px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF; }
+
+.container-wrapper .main {
+  background: #1F2025;
+  margin-left: 99px;
+  color: #fff; }
+  .container-wrapper .main .main-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .container-wrapper .main .main-top .main-top-left img {
+      object-fit: cover; }
+    .container-wrapper .main .main-top .main-top-right .user-img {
+      display: flex;
+      justify-content: end; }
+    .container-wrapper .main .main-top .main-top-right .graphic-img {
+      margin-top: 50px;
+      margin-right: 50px; }
+  .container-wrapper .main .main-bottom {
+    padding: 5px; }
+    .container-wrapper .main .main-bottom .main-bottom-left .text .read-more {
+      color: #FFFFFF;
+      background: #1F2025;
+      border: none; }
+    .container-wrapper .main .main-bottom .main-bottom-right .text .read-more {
+      color: #FFFFFF;
+      background: #1F2025;
+      border: none; }

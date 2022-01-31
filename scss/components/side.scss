@@ -1,0 +1,32 @@
+.side{
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: inset -1px 0px 0px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //margin: 0;
+  height: 100vh;
+  width: 99px;
+  background: #141417;
+  padding: 24px;
+  .side-items-top {
+    .sidebar-items {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+  }
+  .bottom-side{
+    .sidebar-items-bottom{
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+  }
+}
