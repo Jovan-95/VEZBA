@@ -1,15 +1,13 @@
 .car{
   background: #1F2025;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   .img img{
     width: 170px;
     height: 150px;
     object-fit: cover;
   }
   .text{
-    padding: 5px;
+    padding: 10px;
     p{
       font-size: 12px;
     }

@@ -1,14 +1,14 @@
-.navigation{
+.navigation {
   position: relative;
-  top:-40px;
+  top: -40px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   background: #282933;
   max-width: 700px;
   margin-left: 50px;
-  margin-top: 10px;
-  .navigation-items{
+  margin-top: 10px; }
+  .navigation .navigation-items {
     padding: 15px;
     justify-self: center;
     width: 170px;
@@ -16,10 +16,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-    color: #FFFFFF;
-    span{
+    color: #FFFFFF; }
+    .navigation .navigation-items span {
       padding: 16px 50px;
-      background: #1D4ED8;
-    }
-  }
-}
+      background: #1D4ED8; }

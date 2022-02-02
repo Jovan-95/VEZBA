@@ -1,14 +1,12 @@
 .car {
   background: #1F2025;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
+  display: flex; }
   .car .img img {
     width: 170px;
     height: 150px;
     object-fit: cover; }
   .car .text {
-    padding: 5px; }
+    padding: 10px; }
     .car .text p {
       font-size: 12px; }
     .car .text h5 {

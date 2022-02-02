@@ -5,7 +5,8 @@
   margin-left: 99px;
   background: #1F2025;
   color: #FFFFFF;
-  height: 100vh;
+  padding: 20px;
+  height: auto;
   .main-top{
     display: flex;
     justify-content: space-between;
@@ -31,6 +32,8 @@
     border: none;
     width: 700px;
     height: 60px;
+    color: #FFFFFF;
+    border: none;
   }
   ::placeholder{
     color: #FFFFFF;
@@ -46,22 +49,33 @@
       width: 100%;
       color: white;
       background: #1F2025;
+      height: 44px;
+      border-radius: 8px;
+      border: 1px solid #575555;
+
     }
     #birthday{
       min-width: 250px;
       width: 100%;
       color: white;
       background: #1F2025;
+      height: 44px;
+      border-radius: 8px;
+      border: 1px solid #575555;
     }
   }
   .main-middle{
-    padding: 10px;
+    padding: 20px;
 
     .main-middle-left{
-
+      .car{
+        padding: 10px;
+      }
     }
     .main-middle-right{
-
+      .car{
+        padding: 10px;
+      }
     }
   }
 }

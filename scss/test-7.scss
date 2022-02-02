@@ -1,0 +1,42 @@
+@import "components/side";
+.container-wrapper{
+  .main{
+    margin-left: 99px;
+    color: #FFFFFF;
+    background: #1F2025;
+    padding: 20px;
+    .top{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo{
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+    .search{
+      margin-top: 50px;
+      text-align: center;
+      margin-bottom: 100px;
+      #site-search{
+        height: 50px;
+        width: 550px;
+        background: blue;
+        border: none;
+        border-radius: 5px;
+      }
+      ::placeholder{
+        color: #FFFFFF;
+      }
+    }
+    .middle{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .middle-items{
+        margin: 10px;
+      }
+    }
+  }
+}

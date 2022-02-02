@@ -1,0 +1,55 @@
+.container-wrapper .main {
+  padding: 35px;
+  background: #1F2025;
+  color: #FFFFFF; }
+  .container-wrapper .main .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px; }
+    .container-wrapper .main .top .sign-reg .sign {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #FFFFFF;
+      background: #1F2025;
+      border: 1px solid lightgray;
+      padding: 10px 15px;
+      border-radius: 15px; }
+    .container-wrapper .main .top .sign-reg .register {
+      margin-left: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #FFFFFF;
+      background: blue;
+      padding: 10px 15px;
+      border-radius: 15px; }
+  .container-wrapper .main .middle .middle-left {
+    margin-top: 70px; }
+    .container-wrapper .main .middle .middle-left h1 {
+      font-weight: normal;
+      font-size: 60px;
+      line-height: 110%; }
+    .container-wrapper .main .middle .middle-left p {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px; }
+    .container-wrapper .main .middle .middle-left .search {
+      margin-top: 50px; }
+      .container-wrapper .main .middle .middle-left .search #site-search {
+        height: 50px;
+        min-width: 550px;
+        background: blue;
+        border: none;
+        border-radius: 5px; }
+      .container-wrapper .main .middle .middle-left .search ::placeholder {
+        color: #FFFFFF; }
+  .container-wrapper .main .middle .middle-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .container-wrapper .main .middle .middle-right .social .social-items {
+      margin: 15px; }
+
+.container-wrapper .bottom {
+  text-align: center; }

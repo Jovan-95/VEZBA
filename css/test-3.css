@@ -25,15 +25,13 @@
 
 .car {
   background: #1F2025;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
+  display: flex; }
   .car .img img {
     width: 170px;
     height: 150px;
     object-fit: cover; }
   .car .text {
-    padding: 5px; }
+    padding: 10px; }
     .car .text p {
       font-size: 12px; }
     .car .text h5 {
@@ -44,9 +42,11 @@
       border: none; }
 
 .container-wrapper .main {
+  padding: 35px;
   margin-left: 99px;
   background: #1F2025;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding-top: 20px; }
   .container-wrapper .main .main-top {
     height: 38px;
     font-style: normal;

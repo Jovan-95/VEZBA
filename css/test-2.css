@@ -25,15 +25,13 @@
 
 .car {
   background: #1F2025;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
+  display: flex; }
   .car .img img {
     width: 170px;
     height: 150px;
     object-fit: cover; }
   .car .text {
-    padding: 5px; }
+    padding: 10px; }
     .car .text p {
       font-size: 12px; }
     .car .text h5 {
@@ -44,11 +42,13 @@
       border: none; }
 
 .navigation {
+  position: relative;
+  top: -40px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   background: #282933;
-  max-width: 750px;
+  max-width: 700px;
   margin-left: 50px;
   margin-top: 10px; }
   .navigation .navigation-items {
@@ -60,6 +60,9 @@
     font-weight: normal;
     font-size: 22px;
     color: #FFFFFF; }
+    .navigation .navigation-items span {
+      padding: 16px 50px;
+      background: #1D4ED8; }
 
 .container-wrapper .main {
   background: #1F2025;
@@ -78,7 +81,7 @@
       margin-top: 50px;
       margin-right: 50px; }
   .container-wrapper .main .main-bottom {
-    padding: 5px; }
+    padding: 20px; }
     .container-wrapper .main .main-bottom .main-bottom-left .text .read-more {
       color: #FFFFFF;
       background: #1F2025;
