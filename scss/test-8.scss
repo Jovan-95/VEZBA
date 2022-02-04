@@ -1,0 +1,58 @@
+.container-wrapper{
+  .main{
+    background: #1F2025;
+    color: #FFFFFF;
+    padding: 30px;
+    .top{
+      display: flex;
+      justify-content: space-between;
+      .logo{
+
+      }
+      .sign-reg{
+        .sign-button{
+          color: #FFFFFF;
+          border: 1px solid lightgray;
+          border-radius: 10px;
+        }
+        .reg-button{
+          color: #FFFFFF;
+          background: #246CF9;
+          border-radius: 10px;
+        }
+      }
+    }
+      .middle {
+        padding: 50px;
+        width: 100%;
+        background-image: url("../img/bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        .flex-row {
+          display: flex;
+          align-items: center;
+          height: 50px;
+          margin-left: 350px;
+          max-width: 60%;
+          .items {
+            width: 100%;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 10px;
+            .features{
+              font-style: normal;
+              font-weight: normal;
+              font-size: 32px;
+              line-height: 110%;
+            }
+            .web-based{
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 130%;
+              color: rgba(255, 255, 255, 0.75);
+            }
+          }
+        }
+      }
+    }
+  }
